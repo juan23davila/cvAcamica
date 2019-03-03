@@ -1,0 +1,164 @@
+body{
+    background-color: lightgray;
+    margin: auto;
+    font-family: 'Lato';
+    
+}
+header{
+    display: flex;
+    background-color: #313943;
+    width: 90%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+}
+
+#personal{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+#foto{
+    width: 18%;
+    padding-left: 3%;
+}
+#foto img{
+    border-radius: 100%;
+    width: 100%;
+}
+#nombre{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-left: 10%;
+    color: #fff;
+}
+
+h1 {
+	font-size: 30px;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    margin: 0;
+}
+#nombre h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+
+#navega{
+    background-color:#1fcfcb;
+    padding: 10px;
+    width: 50%;
+}
+
+#contenido{
+    background-color: white;
+    padding: 1%;
+}
+
+#contenido section
+{
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+hr {
+    height: 1px;
+    background-color:#1fcfcb;
+  }
+
+p, #contenido ul {
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+a{
+    text-decoration:none; 
+    color: white;
+}
+
+.bt:hover {
+    background-color: dimgrey;
+    font-weight: bold;
+}
+
+#portaItems{
+    display: flex;
+    flex-flow: wrap;
+}
+
+#portaItems li
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#portaItems img
+{
+    width: 130px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.bt{
+    background-color:#529695;
+    margin-top: 5%;
+    padding:5%;
+    border-radius: 15%;
+    border: solid;
+    border-color: black;
+}
+
+#info ul, #info h2{
+    text-align: center;
+}
+footer{
+    background-color: #313943;
+    
+    width: 90%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-self: center;
+    text-align: center;
+    color:white;
+}
+footer p
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.table { display: table; text-align: left; width: 45%; margin: 0 auto;}
+.row { display: table-row;}
+.cell { display: table-cell; }
+
+.volver{
+    text-align: right;
+}
+.volver a{
+    margin-bottom: 2%;
+    margin-right: 2%;
+    color: darkgrey;
+}
