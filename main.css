@@ -1,8 +1,7 @@
 body{
     background-color: lightgray;
     margin: auto;
-    font-family: 'Lato';
-    
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     display: flex;
@@ -29,6 +28,7 @@ header{
 #foto img{
     border-radius: 100%;
     width: 100%;
+    border: #1fcfcb solid 2px;
 }
 #nombre{
     width: 100%;
@@ -69,7 +69,6 @@ h3{
 {
     border: solid;
     border-color: black;
-    border-radius: 5%;
     margin-bottom: 2%;
     padding: 1%;
 }
@@ -124,9 +123,9 @@ ul {
     background-color:#529695;
     margin-top: 5%;
     padding:5%;
-    border-radius: 15%;
     border: solid;
     border-color: black;
+    text-align: center;
 }
 
 #info ul, #info h2{
